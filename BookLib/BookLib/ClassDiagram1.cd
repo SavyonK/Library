@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BookLib.AbstractItem" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAYAAAGAFCACAABAgCAIAgABABAAI4AAAIAA=</HashCode>
+      <FileName>AbstractItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Book" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.DataBase" Collapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEBA=</HashCode>
+      <FileName>DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Filter" Collapsed="true">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECggAAAAASEAhIAASAAAAgiAAIAAEgEAAJAIYAEAA=</HashCode>
+      <FileName>Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.FilteredBooks" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABBEAAAAAAAAAAACAAAEBAAAAAAAAAA=</HashCode>
+      <FileName>IEnumerable.Implemented\FilteredBooks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.671" Collapsed="true" />
+  </Class>
+  <Class Name="BookLib.FilteredOrders" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABBEAAAAAAAAAAACAAAEBAAAAAAAAAA=</HashCode>
+      <FileName>IEnumerable.Implemented\FilteredOrders.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.694" Collapsed="true" />
+  </Class>
+  <Class Name="BookLib.FilteredProducts" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABBEAAAAAAAAAAACAAAEBAAAAAAAAAA=</HashCode>
+      <FileName>IEnumerable.Implemented\FilteredProducts.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.648" Collapsed="true" />
+  </Class>
+  <Class Name="BookLib.Journal" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Journal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.LibraryManager" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBgBCAgDIAQATAAgAAAAAAEQIAASAEQAAAABEIACgA=</HashCode>
+      <FileName>LibraryManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Order" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAIAAEgAAAAAAAAAAEAAAAAAAAAAAAkEA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.PropertyGuidelines" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACABgDFCEAAQCrBgAAAAEBCAAQDAhAAQoCEEQwAgA=</HashCode>
+      <FileName>PropertyGuidelines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Exceptions.DB_ItemUnreachableException" Collapsed="true">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DB_ItemUnreachableException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Exceptions.DB_UnnecessaryDuplicationException" Collapsed="true">
+    <Position X="6.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DB_UnnecessaryDuplicationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Exceptions.ItemInsufficientQuantityException" Collapsed="true">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ItemInsufficientQuantityException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Exceptions.ItemUnavailableException" Collapsed="true">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ItemUnavailableException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Exceptions.LogicalFailException" Collapsed="true">
+    <Position X="12.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\LogicalFailException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Exceptions.PropertyModificationException" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PropertyModificationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JournalLib.FilteredJournals" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABBEAAAAAAAAAAACAAAEBAAAAAAAAAA=</HashCode>
+      <FileName>IEnumerable.Implemented\FilteredJournals.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.659" Collapsed="true" />
+  </Class>
+  <Enum Name="BookLib.CatagoryEnum" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAGFDAghEAQAAEIAAACAAIMAAAAgQACAwBGSVAQAgAo=</HashCode>
+      <FileName>EnumCatagory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BookLib.LibraryObjects" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>EnumLibraryObjects.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
